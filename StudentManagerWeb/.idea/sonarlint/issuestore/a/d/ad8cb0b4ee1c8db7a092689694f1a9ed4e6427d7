@@ -1,0 +1,23 @@
+
+3squid:S1643ç"Use a StringBuilder instead.(²Ã†|
+asquid:S3027e"JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(ª²—
+osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(˜âÂÔüÿÿÿÿ
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(™º±ñ
+usquid:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿŸ’ûıÿÿÿÿ
+psquid:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(Ï‚À²
+2squid:S3626H"Remove this redundant jump.(ÉŠ©ƒ
+c
+squid:S128Á"LEnd this switch case with an unconditional break, return or throw statement.(ñ™“€
+bsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(¡±Ì¾
+bsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(Âùäú
+bsquid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(Í…Œ¥
+squid:S1488î"dImmediately return this expression instead of assigning it to the temporary variable "formatNumber".(Ğ¸šáùÿÿÿÿ
+nsquid:S3776""RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ñ•Ÿ«ıÿÿÿÿ
+^squid:S00112("FDefine and throw a dedicated exception instead of using a generic one.(³²Ó·
+csquid:S00112k"FDefine and throw a dedicated exception instead of using a generic one.(ÎÃÒÇúÿÿÿÿ
+]squid:S00112c"FDefine and throw a dedicated exception instead of using a generic one.(£¸Æ
+Qsquid:S1854Â":Remove this useless assignment to local variable "result".(¥ÅñC
+Wsquid:S1854—":Remove this useless assignment to local variable "result".( à‡Öûÿÿÿÿ
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(˜âÂÔüÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(™º±ñ
+=squid:S2129—" Remove this "String" constructor( à‡Öûÿÿÿÿ

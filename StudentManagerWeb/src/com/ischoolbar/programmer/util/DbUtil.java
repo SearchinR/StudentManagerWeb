@@ -15,7 +15,7 @@ public class DbUtil {
 
 	private String dbUrl = "jdbc:mysql://localhost:3306/db_student_manager_web?useUnicode=true&characterEncoding=utf8";
 	private String dbUser = "root";
-	private String dbPassword = "123456";
+	private String dbPassword = "";
 	private String jdbcName = "com.mysql.jdbc.Driver";
 	private Connection connection = null;
 	public Connection getConnection(){

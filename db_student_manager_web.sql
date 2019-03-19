@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50722
 File Encoding         : 65001
 
-Date: 2019-03-09 09:32:39
+Date: 2019-03-19 11:44:31
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -61,7 +61,7 @@ CREATE TABLE `s_course` (
   `course_teacher` int(10) DEFAULT NULL,
   `course_class` int(10) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of s_course
@@ -69,6 +69,7 @@ CREATE TABLE `s_course` (
 INSERT INTO `s_course` VALUES ('1', '专业英语', '1', '13', '1');
 INSERT INTO `s_course` VALUES ('2', '影视鉴赏', '2', '10', '4');
 INSERT INTO `s_course` VALUES ('3', '高数', '0', '11', '5');
+INSERT INTO `s_course` VALUES ('4', '计算机概论', '3', '9', '4');
 
 -- ----------------------------
 -- Table structure for s_course_dic
@@ -79,14 +80,15 @@ CREATE TABLE `s_course_dic` (
   `course_typecode` int(20) DEFAULT NULL,
   `description` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of s_course_dic
 -- ----------------------------
-INSERT INTO `s_course_dic` VALUES ('1', '0', '专业课');
+INSERT INTO `s_course_dic` VALUES ('1', '0', '专业理工课');
 INSERT INTO `s_course_dic` VALUES ('2', '1', '公共课');
 INSERT INTO `s_course_dic` VALUES ('3', '2', '选修课');
+INSERT INTO `s_course_dic` VALUES ('4', '3', '专业文科课');
 
 -- ----------------------------
 -- Table structure for s_score
@@ -100,7 +102,7 @@ CREATE TABLE `s_score` (
   `student_name` varchar(255) DEFAULT NULL,
   `clazz_id` int(10) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of s_score
@@ -116,6 +118,11 @@ INSERT INTO `s_score` VALUES ('8', '80', '16', '2', '钟神', '4');
 INSERT INTO `s_score` VALUES ('9', '77', '17', '2', '任紫', '4');
 INSERT INTO `s_score` VALUES ('10', '50', '13', '3', '李珍', '5');
 INSERT INTO `s_score` VALUES ('11', '66', '14', '3', '珍珠', '5');
+INSERT INTO `s_score` VALUES ('12', '73', '10', '4', '赵六', '4');
+INSERT INTO `s_score` VALUES ('13', '65', '15', '4', '冯楠', '4');
+INSERT INTO `s_score` VALUES ('14', '81', '16', '4', '钟神', '4');
+INSERT INTO `s_score` VALUES ('15', '55', '17', '4', '任紫', '4');
+INSERT INTO `s_score` VALUES ('16', '76', '9', '3', '马冬梅', '5');
 
 -- ----------------------------
 -- Table structure for s_student

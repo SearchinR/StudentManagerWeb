@@ -1,0 +1,44 @@
+
+Nsquid:S1135!"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+vsquid:S2293í"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó£íìşÿÿÿÿ
+dsquid:S11921"MDefine a constant instead of duplicating this literal "student_name" 6 times.(ñ«Ñê
+gsquid:S1192/"KDefine a constant instead of duplicating this literal "student_id" 6 times.(Ü£“¡ıÿÿÿÿ
+]squid:S1192X"FDefine a constant instead of duplicating this literal "where" 3 times.(Ä¾˜ò
+U
+squid:S106È"9Replace this use of System.out or System.err by a logger.(Ã”…ªûÿÿÿÿ
+?squid:S11487"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Osquid:S1135á"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+usquid:S2293l"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó£íìşÿÿÿÿ
+esquid:S11922"IDefine a constant instead of duplicating this literal "clazz_id" 6 times.(®¿ÿ¡ÿÿÿÿÿ
+@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+O
+squid:S106J"9Replace this use of System.out or System.err by a logger.(Â–‘ö
+@squid:S1148â"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148f"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+vsquid:S2293Î"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó£íìşÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+usquid:S2293V"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó£íìşÿÿÿÿ
+Nsquid:S1135e"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+ksquid:S00100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ë Òúÿÿÿÿ
+]squid:S1192."FDefine a constant instead of duplicating this literal "score" 6 times.(ñúš¥
+Osquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+gsquid:CommentedOutCodeLineH"<This block of commented-out lines of code should be removed.(ôí¼ôøÿÿÿÿ
+fsquid:S00100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¤À‹
+@squid:S1148¨"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â–‘ö
+@squid:S1148Á"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Osquid:S1135À"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135§"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+U
+squid:S106Ä"9Replace this use of System.out or System.err by a logger.(îÁ–ûÿÿÿÿ
+Nsquid:S11356"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+fsquid:S11920"JDefine a constant instead of duplicating this literal "course_id" 6 times.(˜ûà¤ùÿÿÿÿ
+˜squid:S1192±"{Define a constant instead of duplicating this literal "INNER JOIN s_course ON s_score.course_id = s_course.id\r\n" 3 times.(—Ëºşÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â–‘ö
+@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+gsquid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(‘‹¦Œøÿÿÿÿ
+vsquid:S2293­"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó£íìşÿÿÿÿ
+–squid:S1192°"~Define a constant instead of duplicating this literal "INNER JOIN s_student ON s_score.student_id = s_student.id\r\n" 3 times.(çœ¿ò
+Osquid:S1135€"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ

@@ -54,6 +54,10 @@
 						{"menuid":"9","icon":"","menuname":"统计分析",
 							"menus":[
 									{"menuid":"11","menuname":"统计列表","icon":"icon-user-teacher","url":"CountServlet?method=toCountListView"},
+									{"menuid":"12","menuname":"成绩与性别分析列表","icon":"icon-user-teacher","url":"CountServlet?method=toCountListViewSex"},
+									{"menuid":"13","menuname":"成绩与教师学历分析列表","icon":"icon-user-teacher","url":"CountServlet?method=toCountListViewTeacher"},
+									{"menuid":"14","menuname":"成绩与课程分析列表","icon":"icon-user-teacher","url":"CountServlet?method=toCountListViewClass"},
+									{"menuid":"15","menuname":"成绩与地域分析列表","icon":"icon-user-teacher","url":"CountServlet?method=toCountListViewAddress"},
 								]
 						},
 						</c:if>

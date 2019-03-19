@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="StudentManagerWeb:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/StudentManagerWeb_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="StudentManagerWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="commons-io-2.5.jar" module-name="StudentManagerWeb" />
+          <element id="library" level="module" name="commons-fileupload-1.3.2.jar" module-name="StudentManagerWeb" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="StudentManagerWeb/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,36 @@
+
+jsquid:S2095¿"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¾¡½ßÿÿÿÿÿ
+hsquid:CommentedOutCodeLine‘"<This block of commented-out lines of code should be removed.(šüÈÜþÿÿÿÿ
+Nsquid:S11350"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+Nsquid:S1135S"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+Nsquid:S1135W"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+Isquid:S1135\"2Complete the task associated to this TODO comment.(‡ñÅ¼
+Nsquid:S1135`"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+Isquid:S1135f"2Complete the task associated to this TODO comment.(‡ñÅ¼
+Nsquid:S1135j"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+Isquid:S1135p"2Complete the task associated to this TODO comment.(‡ñÅ¼
+Nsquid:S1135t"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+Isquid:S1135z"2Complete the task associated to this TODO comment.(‡ñÅ¼
+Nsquid:S1135~"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+Jsquid:S1135„"2Complete the task associated to this TODO comment.(‡ñÅ¼
+Osquid:S1135ˆ"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+Osquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+Osquid:S1135¡"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+Osquid:S1135µ"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+Osquid:S1135Å"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+bsquid:S2674ž"JCheck the return value of the "read" call to see how many bytes were read.(ù–à’
+bsquid:S2674²"JCheck the return value of the "read" call to see how many bytes were read.(ù–à’
+bsquid:S2674Á"JCheck the return value of the "read" call to see how many bytes were read.(¥×é¡
+nsquid:S3776."RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ã€¹Âüÿÿÿÿ
+osquid:S3776Ž"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(¿òîŽûÿÿÿÿ
+?squid:S1148X"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
+?squid:S1148a"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148k"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148u"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+:squid:S1148w"#Use a logger to log this exception.(þìÓ’
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+@squid:S1148‰"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+;squid:S1148‹"#Use a logger to log this exception.(‰¿ï
+@squid:S1148¢"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+@squid:S1148¶"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+@squid:S1148Æ"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

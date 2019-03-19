@@ -25,9 +25,12 @@
 <body>
 	   <div id="container" style="height: 500px;weight:500px;"></div>
 	   <div id="container1"style="height: 500px;weight:500px;"></div>
-       <div id="container3"style="height: 500px;weight:500px;"></div>
-       <div id="container2"style="height: 500px;weight:500px;"></div>
-       
+	   <div id="container2"style="height: 500px;weight:500px;"></div>
+       <div id="container3"></div>
+       <div id="container6"style="height: 500px;weight:500px;"></div>
+	   <div id="container5"style="height: 500px;weight:500px;"></div>
+		
+		
  <script type="text/javascript">
 	var dom = document.getElementById("container");
 	var myChart = echarts.init(dom);
@@ -48,7 +51,7 @@
 	    legend: {
 	        orient: 'vertical',
 	        x: 'left',
-	        data:['学生数量','课程数量','老师数量','班级数量','男生','女生','专业课','选修课','公共课','博士','本科生','研究生']
+	        data:['学生数量','课程数量','老师数量','班级数量','男生','女生','专业理工课','专业文史课','选修课','公共课','博士','本科生','研究生']
 	    },
 	    series: [
 	        {
@@ -124,7 +127,8 @@
 	                }
 	            },
 	            data:[
-	                {value:<%=request.getAttribute("MNum")%>, name:'专业课'},
+	                {value:<%=request.getAttribute("MNum")%>, name:'专业理工课'},
+	                {value:<%=request.getAttribute("M1Num")%>, name:'专业文史课'},
 	                {value:<%=request.getAttribute("PNum")%>, name:'公共课'},
 	                {value:<%=request.getAttribute("ENum")%>, name:'选修课'},
 	                {value:<%=request.getAttribute("BoNum")%>, name:'博士'},
@@ -161,9 +165,9 @@
 		  
 		   dataset: {
 		       source: [
-		           ['product', '专业课', '公共课', '选修课'],
-		           ['男', <%=request.getAttribute("majorM")%>, <%=request.getAttribute("publicM")%>, <%=request.getAttribute("electiveM")%>],
-		           ['女', <%=request.getAttribute("majorW")%>, <%=request.getAttribute("publicW")%>, <%=request.getAttribute("electiveW")%>],
+		           ['product', '专业理工课','专业文史课', '公共课', '选修课'],
+		           ['男', <%=request.getAttribute("majorM")%>,<%=request.getAttribute("majorMW")%>,<%=request.getAttribute("publicM")%>, <%=request.getAttribute("electiveM")%>],
+		           ['女', <%=request.getAttribute("majorW")%>,<%=request.getAttribute("majorWW")%>, <%=request.getAttribute("publicW")%>, <%=request.getAttribute("electiveW")%>],
 		
 		       ]
 		   },
@@ -172,6 +176,7 @@
 		   // Declare several bar series, each will be mapped
 		   // to a column of dataset.source by default.
 		   series: [
+		       {type: 'bar'},
 		       {type: 'bar'},
 		       {type: 'bar'},
 		       {type: 'bar'}
@@ -214,7 +219,7 @@ option = {
     xAxis: {
         type: 'category',
         boundaryGap: false,
-        data: ['专业课','公共课','选修课']
+        data: ['专业理工课','专业文史课','公共课','选修课']
     },
     yAxis: {
         type: 'value'
@@ -224,19 +229,19 @@ option = {
             name:'各课程平均分',
             type:'line',
             stack: '总量',
-            data:[<%=request.getAttribute("majorB")%>, <%=request.getAttribute("publicB")%>, <%=request.getAttribute("electiveB")%>]
+            data:[<%=request.getAttribute("majorB")%>,<%=request.getAttribute("majorBW")%>, <%=request.getAttribute("publicB")%>, <%=request.getAttribute("electiveB")%>]
         },
         {
             name:'男生平均分',
             type:'line',
             stack: '总量',
-            data:[<%=request.getAttribute("majorM")%>, <%=request.getAttribute("publicM")%>, <%=request.getAttribute("electiveM")%>]
+            data:[<%=request.getAttribute("majorM")%>,<%=request.getAttribute("majorMW")%>,<%=request.getAttribute("publicM")%>, <%=request.getAttribute("electiveM")%>]
         },
         {
             name:'女生平均分',
             type:'line',
             stack: '总量',
-            data:[<%=request.getAttribute("majorW")%>, <%=request.getAttribute("publicW")%>, <%=request.getAttribute("electiveW")%>]
+            data:[<%=request.getAttribute("majorW")%>,<%=request.getAttribute("majorWW")%>, <%=request.getAttribute("publicW")%>, <%=request.getAttribute("electiveW")%>]
         },
   
     ]
@@ -324,11 +329,167 @@ setTimeout(function () {
 	if (option && typeof option === "object") {
 	    myChart.setOption(option, true);
 	}
- </script>
+</script>
+
+
+
+<script type="text/javascript">
+var dom = document.getElementById("container5");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+option = {
+    title: {
+        text: '成绩与地域关系分析图'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['各地域平均分']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['吕梁','北京','河北','河南']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name:'各地域平均分',
+            type:'line',
+            stack: '总量',
+            data:[<%=request.getAttribute("LLS")%>,<%=request.getAttribute("BJS")%>, <%=request.getAttribute("HBS")%>, <%=request.getAttribute("HNS")%>]
+        },
+    ]
+};
+;
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}
+</script>
+
+ <script type="text/javascript">
+	var dom = document.getElementById("container4");
+	var myChart = echarts.init(dom);
+	var app = {};
+	option = null;
+	app.title = '嵌套环形图';
+	
+	option = {
+			title : {
+				text: '统计分析',
+				subtext: "",
+				x:'center'
+			},
+	    tooltip: {
+	        trigger: 'item',
+	        formatter: "{a} <br/>{b}: {c} ({d}%)"
+	    },
+	    legend: {
+	        orient: 'vertical',
+	        x: 'left',
+	        data:['吕梁','北京','河北','河南']
+	    },
+	    series: [
+	        {
+	            name:'来源',
+	            type:'pie',
+	            selectedMode: 'single',
+	            radius: [0, '30%'],
+	
+	            label: {
+	                normal: {
+	                    position: 'inner'
+	                }
+	            },
+	            labelLine: {
+	                normal: {
+	                    show: false
+	                }
+	            },
+	            data:[
+
+	                
+	            ]
+	        },
+	        {
+	            name:'来源',
+	            type:'pie',
+	            radius: ['40%', '55%'],
+	            label: {
+	                normal: {
+	                    formatter: '{a|{a}}{abg|}\n{hr|}\n  {b|{b}：}{c}  {per|{d}%}  ',
+	                    backgroundColor: '#eee',
+	                    borderColor: '#aaa',
+	                    borderWidth: 1,
+	                    borderRadius: 4,
+	                    // shadowBlur:3,
+	                    // shadowOffsetX: 2,
+	                    // shadowOffsetY: 2,
+	                    // shadowColor: '#999',
+	                    // padding: [0, 7],
+	                    rich: {
+	                        a: {
+	                            color: '#999',
+	                            lineHeight: 22,
+	                            align: 'center'
+	                        },
+	                        // abg: {
+	                        //     backgroundColor: '#333',
+	                        //     width: '100%',
+	                        //     align: 'right',
+	                        //     height: 22,
+	                        //     borderRadius: [4, 4, 0, 0]
+	                        // },
+	                        hr: {
+	                            borderColor: '#aaa',
+	                            width: '100%',
+	                            borderWidth: 0.5,
+	                            height: 0
+	                        },
+	                        b: {
+	                            fontSize: 16,
+	                            lineHeight: 33
+	                        },
+	                        per: {
+	                            color: '#eee',
+	                            backgroundColor: '#334455',
+	                            padding: [2, 4],
+	                            borderRadius: 2
+	                        }
+	                    }
+	                }
+	            },
+	            data:[
+	                {value:<%=request.getAttribute("LLNum")%>, name:'吕梁'},
+	                {value:<%=request.getAttribute("BJNum")%>, name:'北京'},
+	                {value:<%=request.getAttribute("HBNum")%>, name:'河北'},
+	                {value:<%=request.getAttribute("HNNum")%>, name:'河南'},
+	            ]
+	        }
+	    ]
+	};;
+	if (option && typeof option === "object") {
+	    myChart.setOption(option, true);
+	}
+</script>
+
+
 
 </body>
-
-	
-
 
 </html>

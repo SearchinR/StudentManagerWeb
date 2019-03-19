@@ -1,0 +1,143 @@
+
+dsquid:S2147§"ECombine this catch with the one at line 420, which has the same body.(ï­£Ä8ŞÃÖƒ—-
+lsquid:S1192"HDefine a constant instead of duplicating this literal "publicW" 4 times.(ş«î‰ùÿÿÿÿ8ŞÃÖƒ—-
+lsquid:S1192z"IDefine a constant instead of duplicating this literal "clazzNum" 4 times.(í’ÿßıÿÿÿÿ8ŞÃÖƒ—-
+nsquid:S00117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Òì„úÿÿÿÿ
+W
+squid:S106Ò"9Replace this use of System.out or System.err by a logger.(µŸ–8ŞÃÖƒ—-
+Osquid:S1481«"+Remove this unused "majorB" local variable.(ûúÄöÿÿÿÿÿ8å’Éƒ—-
+Ksquid:S1481Œ",Remove this unused "publicB" local variable.(„ÖÉ´8ŞÃÖƒ—-
+Osquid:S1481æ"+Remove this unused "majorB" local variable.(ûúÄöÿÿÿÿÿ8ŞÃÖƒ—-
+qsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ú‚Ú8ŞÃÖƒ—-
+isquid:S1192ƒ"JDefine a constant instead of duplicating this literal "electiveW" 4 times.(—ÉœÈ8ŞÃÖƒ—-
+vsquid:S00117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›­Íüÿÿÿÿ8å’Éƒ—-
+Gsquid:S1148È"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ŞÃÖƒ—-
+qsquid:S00117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥äÌ¾8ŞÃÖƒ—-
+Rsquid:S1854Q";Remove this useless assignment to local variable "publicB".(„ÖÉ´
+isquid:S00117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿€öì
+Wsquid:UselessImportCheck"3Remove this unused import 'net.sf.json.JsonConfig'.(ëÁÌ¥
+isquid:S00117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£…³Ù
+^squid:S1854ˆ":Remove this useless assignment to local variable "majorB".(ûúÄöÿÿÿÿÿ8ŞÃÖƒ—-
+vsquid:S00117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üï•Œøÿÿÿÿ8å’Éƒ—-
+^squid:S1854«":Remove this useless assignment to local variable "majorB".(ûúÄöÿÿÿÿÿ8å’Éƒ—-
+vsquid:S00117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÈúæıÿÿÿÿ8ŞÃÖƒ—-
+qsquid:S00117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠšÌá8ŞÃÖƒ—-
+qsquid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£…³Ù8å’Éƒ—-
+Qsquid:S1161%":Add the "@Override" annotation above this method signature(à»¢ü
+qsquid:S00117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£…³Ù8ŞÃÖƒ—-
+\squid:S1854"=Remove this useless assignment to local variable "electiveB".(ûŠà¼8ŞÃÖƒ—-
+isquid:S00117Y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠšÌá
+jsquid:S1192~"GDefine a constant instead of duplicating this literal "majorM" 4 times.(İí‘Åşÿÿÿÿ8ŞÃÖƒ—-
+esquid:S1192u"GDefine a constant instead of duplicating this literal "BenNum" 4 times.(Ï©ş8ŞÃÖƒ—-
+vsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›­Íüÿÿÿÿ8ŞÃÖƒ—-
+esquid:S1192v"GDefine a constant instead of duplicating this literal "YanNum" 4 times.(†ÂË¢8ŞÃÖƒ—-
+W
+squid:S106ô"9Replace this use of System.out or System.err by a logger.(µŸ–8ŞÃÖƒ—-
+vsquid:S00117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àõËùÿÿÿÿ8ŞÃÖƒ—-
+Vsquid:S1854M":Remove this useless assignment to local variable "majorB".(ûúÄöÿÿÿÿÿ
+]squid:S2147"ECombine this catch with the one at line 139, which has the same body.(ï­£Ä
+qsquid:S00117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£…³Ù8ŞÃÖƒ—-
+Ksquid:S1481ê",Remove this unused "publicB" local variable.(„ÖÉ´8ŞÃÖƒ—-
+Vsquid:S1135–"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8å’Éƒ—-
+dsquid:S2147ì"ECombine this catch with the one at line 233, which has the same body.(ï­£Ä8å’Éƒ—-
+vsquid:S00117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç×ò‰ûÿÿÿÿ8å’Éƒ—-
+nsquid:S00117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›­Íüÿÿÿÿ
+dsquid:S11929"FDefine a constant instead of duplicating this literal "count" 4 times.(µŸ–8ŞÃÖƒ—-
+Zsquid:S1854Œ";Remove this useless assignment to local variable "publicB".(„ÖÉ´8ŞÃÖƒ—-
+vsquid:S00117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÈúæıÿÿÿÿ8å’Éƒ—-
+Vsquid:S1135¥"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ŞÃÖƒ—-
+Vsquid:S1135¨"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ŞÃÖƒ—-
+Zsquid:S1854ê";Remove this useless assignment to local variable "publicB".(„ÖÉ´8ŞÃÖƒ—-
+vsquid:S00117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›­Íüÿÿÿÿ8ŞÃÖƒ—-
+vsquid:S00117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…‰’ûÿÿÿÿ8ŞÃÖƒ—-
+Osquid:S1135Œ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+qsquid:S00117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š‹Ëü8ŞÃÖƒ—-
+qsquid:S00117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äµ’ù8ŞÃÖƒ—-
+ksquid:S1192†"GDefine a constant instead of duplicating this literal "majorB" 4 times.(®Ùï˜øÿÿÿÿ8ŞÃÖƒ—-
+ksquid:S1192}"HDefine a constant instead of duplicating this literal "stuWNum" 4 times.(§ĞßÀúÿÿÿÿ8ŞÃÖƒ—-
+nsquid:S1192y"KDefine a constant instead of duplicating this literal "studentNum" 4 times.(Îï¤°ûÿÿÿÿ8ŞÃÖƒ—-
+dsquid:S2147É"ECombine this catch with the one at line 326, which has the same body.(ï­£Ä8ŞÃÖƒ—-
+Asquid:S1989#"%Add a "try/catch" block for "doPost".(³æ£õùÿÿÿÿ
+O
+squid:S1069"9Replace this use of System.out or System.err by a logger.(µŸ–
+Vsquid:S1135Ç"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ŞÃÖƒ—-
+qsquid:S00117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ú‚Ú8ŞÃÖƒ—-
+esquid:S1192"GDefine a constant instead of duplicating this literal "majorW" 4 times.(üá®ç8ŞÃÖƒ—-
+hsquid:S1192…"JDefine a constant instead of duplicating this literal "electiveB" 4 times.(é÷Á$8ŞÃÖƒ—-
+isquid:S00117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥äÌ¾
+Qsquid:S1161"":Add the "@Override" annotation above this method signature(°¥¸û
+W
+squid:S106—"9Replace this use of System.out or System.err by a logger.(µŸ–8å’Éƒ—-
+qsquid:S00117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š‹Ëü8å’Éƒ—-
+vsquid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üï•Œøÿÿÿÿ8ŞÃÖƒ—-
+nsquid:S00117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üï•Œøÿÿÿÿ
+vsquid:S00117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àõËùÿÿÿÿ8å’Éƒ—-
+vsquid:S00117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àõËùÿÿÿÿ8ŞÃÖƒ—-
+Osquid:S1135Ä"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+qsquid:S00117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äµ’ù8ŞÃÖƒ—-
+Vsquid:S1135ó"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8ŞÃÖƒ—-
+nsquid:S00117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àõËùÿÿÿÿ
+vsquid:S00117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Òì„úÿÿÿÿ8ŞÃÖƒ—-
+qsquid:S00117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿€öì8å’Éƒ—-
+nsquid:S00117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÈúæıÿÿÿÿ
+qsquid:S00117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äµ’ù8å’Éƒ—-
+isquid:S1192‚"JDefine a constant instead of duplicating this literal "electiveM" 4 times.(”ƒäè8ŞÃÖƒ—-
+ksquid:S1192|"HDefine a constant instead of duplicating this literal "stuMNum" 4 times.(ú²Ï–üÿÿÿÿ8ŞÃÖƒ—-
+isquid:S1192w"FDefine a constant instead of duplicating this literal "BoNum" 4 times.(»Èâüıÿÿÿÿ8ŞÃÖƒ—-
+Ksquid:S1481¯",Remove this unused "publicB" local variable.(„ÖÉ´8å’Éƒ—-
+Zsquid:S1854¯";Remove this useless assignment to local variable "publicB".(„ÖÉ´8å’Éƒ—-
+vsquid:S00117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÈúæıÿÿÿÿ8ŞÃÖƒ—-
+Msquid:S1481".Remove this unused "electiveB" local variable.(ûŠà¼8ŞÃÖƒ—-
+vsquid:S00117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É°ø¦ıÿÿÿÿ8ŞÃÖƒ—-
+Osquid:S1481ˆ"+Remove this unused "majorB" local variable.(ûúÄöÿÿÿÿÿ8ŞÃÖƒ—-
+Gsquid:S1148ë"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8å’Éƒ—-
+Gsquid:S1148©"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ŞÃÖƒ—-
+\squid:S1854î"=Remove this useless assignment to local variable "electiveB".(ûŠà¼8ŞÃÖƒ—-
+Msquid:S1481³".Remove this unused "electiveB" local variable.(ûŠà¼8å’Éƒ—-
+nsquid:S00117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É°ø¦ıÿÿÿÿ
+isquid:S00117_"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äµ’ù
+Gsquid:S1148Ë"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ŞÃÖƒ—-
+Vsquid:S1135í"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8å’Éƒ—-
+@squid:S1148Å"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+vsquid:S2293¹"YReplace the type specification in this constructor call with the diamond operator ("<>").(€®²ûÿÿÿÿ
+vsquid:S00117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…‰’ûÿÿÿÿ8å’Éƒ—-
+Vsquid:S1135Ê"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ŞÃÖƒ—-
+@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+qsquid:S00117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠšÌá8å’Éƒ—-
+Vsquid:S1135Ñ"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8ŞÃÖƒ—-
+Msquid:S1481î".Remove this unused "electiveB" local variable.(ûŠà¼8ŞÃÖƒ—-
+qsquid:S00117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿€öì8ŞÃÖƒ—-
+isquid:S1192x"KDefine a constant instead of duplicating this literal "teacherNum" 4 times.(á£“æ8ŞÃÖƒ—-
+vsquid:S00117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…‰’ûÿÿÿÿ8ŞÃÖƒ—-
+vsquid:S00117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É°ø¦ıÿÿÿÿ8ŞÃÖƒ—-
+nsquid:S00117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…‰’ûÿÿÿÿ
+vsquid:S00117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç×ò‰ûÿÿÿÿ8ŞÃÖƒ—-
+gsquid:S1192€"HDefine a constant instead of duplicating this literal "publicM" 4 times.(Çà¹·8ŞÃÖƒ—-
+vsquid:S00117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üï•Œøÿÿÿÿ8ŞÃÖƒ—-
+qsquid:S00117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥äÌ¾8ŞÃÖƒ—-
+isquid:S00117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š‹Ëü
+\squid:S1854³"=Remove this useless assignment to local variable "electiveB".(ûŠà¼8å’Éƒ—-
+qsquid:S00117ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿€öì8ŞÃÖƒ—-
+vsquid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç×ò‰ûÿÿÿÿ8ŞÃÖƒ—-
+@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+vsquid:S00117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É°ø¦ıÿÿÿÿ8å’Éƒ—-
+qsquid:S00117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š‹Ëü8ŞÃÖƒ—-
+Osquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Tsquid:S1854U"=Remove this useless assignment to local variable "electiveB".(ûŠà¼
+qsquid:S00117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥äÌ¾8å’Éƒ—-
+vsquid:S00117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Òì„úÿÿÿÿ8ŞÃÖƒ—-
+Gsquid:S1148î"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8å’Éƒ—-
+Nsquid:S11358"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+qsquid:S00117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ú‚Ú8å’Éƒ—-
+hsquid:S1192{"JDefine a constant instead of duplicating this literal "courseNum" 4 times.(§êÈº8ŞÃÖƒ—-
+vsquid:S00117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Òì„úÿÿÿÿ8å’Éƒ—-
+Gsquid:S1148¦"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ŞÃÖƒ—-
+lsquid:S1192„"HDefine a constant instead of duplicating this literal "publicB" 4 times.(Ú­“Êşÿÿÿÿ8ŞÃÖƒ—-
+^squid:S1854æ":Remove this useless assignment to local variable "majorB".(ûúÄöÿÿÿÿÿ8ŞÃÖƒ—-
+Csquid:S1481Q",Remove this unused "publicB" local variable.(„ÖÉ´
+Gsquid:S1481M"+Remove this unused "majorB" local variable.(ûúÄöÿÿÿÿÿ
+Vsquid:S1135ê"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8å’Éƒ—-
+qsquid:S00117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠšÌá8ŞÃÖƒ—-
+Esquid:S1481U".Remove this unused "electiveB" local variable.(ûŠà¼
+isquid:S00117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ú‚Ú
+nsquid:S00117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç×ò‰ûÿÿÿÿ

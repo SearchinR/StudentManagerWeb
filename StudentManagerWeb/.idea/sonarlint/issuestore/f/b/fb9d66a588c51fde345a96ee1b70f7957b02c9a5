@@ -1,0 +1,36 @@
+
+esquid:S1192F"IDefine a constant instead of duplicating this literal "clazz_id" 3 times.(Òù±·şÿÿÿÿ
+csquid:S1192‰"FDefine a constant instead of duplicating this literal "total" 5 times.(š±éÄúÿÿÿÿ
+`squid:S1192I"IDefine a constant instead of duplicating this literal "password" 3 times.(¸ìë
+]squid:S1192d"FDefine a constant instead of duplicating this literal "where" 6 times.(Ä¾˜ò
+^squid:S1192G"GDefine a constant instead of duplicating this literal "mobile" 3 times.(ßœ¢‘
+bsquid:S1192J"FDefine a constant instead of duplicating this literal "photo" 3 times.(´èØêıÿÿÿÿ
+usquid:S2293X"YReplace the type specification in this constructor call with the diamond operator ("<>").(É½‚ûúÿÿÿÿ
+fsquid:S2095/"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(«³ãÁ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â–‘ö
+O
+squid:S106'"9Replace this use of System.out or System.err by a logger.(Â–‘ö
+Nsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+Nsquid:S1135+"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+Nsquid:S11354"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1135:"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+Nsquid:S1135R"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1135u"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135Œ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135›"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135©"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135·"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135Å"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135İ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135ã"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+msquid:UselessImportCheck"DRemove this unused import 'com.ischoolbar.programmer.model.Student'.(ö¹á†üÿÿÿÿ
+?squid:S11485"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148S"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148v"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148œ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148ª"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148¸"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148Æ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148Ş"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

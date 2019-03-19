@@ -85,6 +85,8 @@ public class CourseDao extends BaseDao {
 		}
 		return total;
 	}
+	
+	// 专业理工科 数量
 	public int getMNum() {
 		int total = 0;
 		String sql = "select count(*)as total from s_course where course_type=0 ";
@@ -99,6 +101,22 @@ public class CourseDao extends BaseDao {
 		}
 		return total;
 	}
+	// 专业 文科数量
+	public int getM1Num() {
+		int total = 0;
+		String sql = "select count(*)as total from s_course where course_type=3";
+		ResultSet resultSet = query(sql);
+		try {
+			while(resultSet.next()){
+				total = resultSet.getInt("total");
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return total;
+	}
+	// 选修课数量
 	public int getENum() {
 		int total = 0;
 		String sql = "select count(*)as total from s_course where course_type=2 ";

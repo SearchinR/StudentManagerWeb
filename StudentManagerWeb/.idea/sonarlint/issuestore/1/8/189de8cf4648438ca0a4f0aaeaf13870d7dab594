@@ -1,0 +1,27 @@
+
+_squid:S1192B"HDefine a constant instead of duplicating this literal "success" 3 times.(ˆîº·
+gsquid:S11925"KDefine a constant instead of duplicating this literal "courseName" 3 times.(ÖŠ‰æşÿÿÿÿ
+Asquid:S1989!"%Add a "try/catch" block for "doPost".(³æ£õùÿÿÿÿ
+vsquid:S2293”"YReplace the type specification in this constructor call with the diamond operator ("<>").(€®²ûÿÿÿÿ
+Nsquid:S11353"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+Nsquid:S1135D"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1135R"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+Nsquid:S1135Y"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1135c"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+Nsquid:S1135s"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1135}"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+Osquid:S1135‚"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135…"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135Ÿ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+]squid:S2147„"ECombine this catch with the one at line 129, which has the same body.(ï­£Ä
+Wsquid:UselessImportCheck"3Remove this unused import 'net.sf.json.JsonConfig'.(ëÁÌ¥
+gsquid:UselessImportCheck"CRemove this unused import 'com.ischoolbar.programmer.dao.ClazzDao'.(¡ş³‰
+ksquid:UselessImportCheck"BRemove this unused import 'com.ischoolbar.programmer.model.Clazz'.(ÈÉ…’ıÿÿÿÿ
+?squid:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148t"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148ƒ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148†"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Qsquid:S1161 ":Add the "@Override" annotation above this method signature(°¥¸û
+Qsquid:S1161#":Add the "@Override" annotation above this method signature(à»¢ü

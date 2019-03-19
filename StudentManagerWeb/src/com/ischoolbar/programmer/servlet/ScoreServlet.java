@@ -163,7 +163,7 @@ public class ScoreServlet extends HttpServlet {
 		score.setCourseId(courseId);
 		score.setClazzId(clazzId);
 		ScoreDao scoreDao = new ScoreDao();
-		System.out.println(currentPage+" "+pageSize);
+		
 		List<Score> clazzList = scoreDao.getScoreList(score, new Page(currentPage, pageSize));
 		int total = scoreDao.getScoreListTotal(score);
 		scoreDao.closeCon();

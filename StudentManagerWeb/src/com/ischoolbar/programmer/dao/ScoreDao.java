@@ -4,8 +4,9 @@ package com.ischoolbar.programmer.dao;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-
+import java.util.Map;
 
 import com.ischoolbar.programmer.model.Page;
 import com.ischoolbar.programmer.model.Score;
@@ -193,11 +194,10 @@ public class ScoreDao extends BaseDao {
 			e.printStackTrace();
 		}
 		int length=ret.size();
-		System.out.println(length);
 		double sum=0;
 		for(int j=0;j<length;j++) {
 			sum+=ret.get(j).getScore();
-			System.out.println(j);
+			// System.out.println(j);
 		}
 		
 		return sum/length;
@@ -263,5 +263,92 @@ public class ScoreDao extends BaseDao {
 		}
 		return sum/length;
 	}
+	
+	public double getAddressScoreNum(String address) {
+		int total = 0;
+		String sql = "select count(*)as total from s_student\r\n" + 
+				"INNER JOIN s_score ON s_score.student_id = s_student.id\r\n" + 
+				"where s_student.address='"+address+"'";
+		ResultSet resultSet = query(sql.replaceFirst("and", "where"));
+		try {
+			while(resultSet.next()){
+				total = resultSet.getInt("total");
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return total;
+	}
+	
+	public Map<String,String> getAddressScoreNum1() {
+		int total = 0;
+		String sql = "select 	s_score.id,\r\n" + 
+				"	s_score.score,\r\n" + 
+				"	s_score.student_id,\r\n" + 
+				"	s_score.course_id,\r\n" + 
+				"	s_score.student_name,\r\n" + 
+				"	s_score.clazz_id,\r\n" + 
+				"	s_student.address\r\n" + 
+				"	FROM\r\n" + 
+				"	s_score\r\n" + 
+				"	INNER JOIN s_student ON s_score.student_id = s_student.id";
+		ResultSet resultSet = query(sql);
+		Map<String, String> map = new HashMap<String, String>();
+		try {
+			while(resultSet.next()){
+				// total = resultSet.getInt("total");
+				if(map.containsKey(resultSet.getString("address"))) {
+					int value=Integer.parseInt(map.get(resultSet.getString("address")))+1;
+					String val=String.valueOf(value);
+					map.put(resultSet.getString("address"), val);	
+				}else{
+					map.put(resultSet.getString("address"), "1");	
+				};
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return map;
+	}
 
+	public double getAddressScoreB(String address) {
+		
+		List<Score> ret = new ArrayList<Score>();
+		String sql = "select s_score.id,\r\n" + 
+				"s_score.score,\r\n" + 
+				"s_score.student_id,\r\n" + 
+				"s_score.course_id,\r\n" + 
+				"s_score.student_name,\r\n" + 
+				"s_score.clazz_id,\r\n" + 
+				"s_student.address\r\n" + 
+				"FROM\r\n" + 
+				"s_score\r\n" + 
+				"INNER JOIN s_student ON s_score.student_id = s_student.id\r\n" + 
+				"where s_student.address='"+address+"'";
+		ResultSet resultSet = query(sql);
+		System.out.println(sql);
+		try {
+			while(resultSet.next()){
+				Score s = new Score();
+				s.setId(resultSet.getInt("id"));
+				s.setScore(resultSet.getDouble("score"));
+				s.setStudentId(resultSet.getInt("student_id"));
+				s.setCourseId(resultSet.getInt("course_id"));
+				s.setStudentName(resultSet.getString("student_name"));
+				s.setClazzId(resultSet.getInt("clazz_id"));
+				ret.add(s);
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		int length=ret.size();
+		double sum=0;
+		for(int j=0;j<length;j++) {
+			sum+=ret.get(j).getScore();
+		}
+		return sum/length;
+	}
 }

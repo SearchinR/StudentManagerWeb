@@ -113,7 +113,6 @@ public class StudentServlet extends HttpServlet {
 		}
 		StudentDao studentDao = new StudentDao();
 		List<Student> clazzList = studentDao.getStudentList(student, new Page(currentPage, pageSize));
-		System.out.println(clazzList.get(1).getName());
 		int total = studentDao.getStudentListTotal(student);
 		studentDao.closeCon();
 		response.setCharacterEncoding("UTF-8");

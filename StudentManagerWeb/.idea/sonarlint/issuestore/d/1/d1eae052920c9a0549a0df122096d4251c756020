@@ -1,0 +1,36 @@
+
+_squid:S1192E"HDefine a constant instead of duplicating this literal "success" 3 times.(ˆîº·
+msquid:S1192O"VDefine a constant instead of duplicating this literal "æ•°æ®åº“ä¿®æ”¹é”™è¯¯" 3 times.(Ü™ø‘
+osquid:S1192;"SDefine a constant instead of duplicating this literal "åŸå¯†ç é”™è¯¯ï¼" 3 times.(çø¯±ıÿÿÿÿ
+Asquid:S1989"%Add a "try/catch" block for "doPost".(³æ£õùÿÿÿÿ
+=squid:S1989)"&Add a "try/catch" block for "forward".(‚’½Ù
+Nsquid:S1135+"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S11351"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+Nsquid:S1135>"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1135G"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1135Q"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1135`"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1135i"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Nsquid:S1135s"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135‚"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135‹"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135•"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135Ÿ"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+Osquid:S1135£"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Osquid:S1135¦"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+isquid:S3776/"RRefactor this method to reduce its Cognitive Complexity from 45 to the 15 allowed.(Æ·Š„
+]squid:S2147¥"ECombine this catch with the one at line 162, which has the same body.(ï­£Ä
+?squid:S1148,"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148R"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148a"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148j"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148t"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148ƒ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148Œ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148–"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148¤"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148§"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Qsquid:S1161":Add the "@Override" annotation above this method signature(°¥¸û
+Qsquid:S1161":Add the "@Override" annotation above this method signature(à»¢ü
